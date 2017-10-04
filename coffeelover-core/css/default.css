@@ -463,7 +463,8 @@ ul.extrapages li a {
     color: #fff !important;
     border-color: #644a3b !important;
     float: right;
-    width: 68px;
+    min-width: 68px;
+	width:auto;
 }
 .btn-default.mailinglist-submit:hover, 
 .btn-default.mailinglist-submit:focus {
@@ -1002,4 +1003,8 @@ iframe {
 	ul.payment-icons li {
 		font-size: 30px;
 	}
+}
+
+#home{
+	padding-bottom:0;
 }
