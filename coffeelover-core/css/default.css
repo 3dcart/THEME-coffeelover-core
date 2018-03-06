@@ -110,28 +110,29 @@ h1 {
     text-transform: uppercase;
 }
 .btn-default {
-    border-color: #644a3b;
-    background-color: #644a3b;
-    color: #fff;
+	border-color: #644a3b;
+	background-color: #bca483;
+	color: #644a3b;
 }
 .btn-default:hover,
 .btn-default:focus, 
 .btn-default.focus {
     color: #644a3b;
     background-color: #bca483;
-    border-color: #bca483;
+    border-color: #644a3b;
+    opacity: 0.8;
 }
 .btn-default.btn-inverse,
 .btn-primary {
     color: #fff;
-    background-color: #000;
-    border-color: #000;
+    background-color: #644a3b;
+    border-color: #644a3b;
 }
 .btn-default.btn-inverse:hover,
 .btn-primary:hover {
 	color: #fff;
-    background-color: #000;
-    border-color: #000;
+    background-color: #644a3b;
+    border-color: #644a3b;
     opacity: 0.8;
 }
 .navbar-wrapper {
