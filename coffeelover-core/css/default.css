@@ -1004,3 +1004,8 @@ iframe {
 		font-size: 30px;
 	}
 }
+@media(min-width: 768px) {
+    .revealOnScroll {
+        opacity:0;
+    }
+}
