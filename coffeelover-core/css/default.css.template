@@ -434,7 +434,9 @@ ul.extrapages li a {
     .copyright * {
         text-align: center !important;
     }
-
+    .navbar-nav>li {
+        float: none;
+    }
 }
 
 .mailist-box {
