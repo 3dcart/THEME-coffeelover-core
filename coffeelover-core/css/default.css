@@ -1011,3 +1011,7 @@ iframe {
         opacity:0;
     }
 }
+#viewCartQuick .product-item {
+    opacity: 1;
+    margin-bottom: 15px;
+}
