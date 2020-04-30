@@ -125,14 +125,14 @@ h1 {
 .btn-default {
 	border-color: #[btn2_border];
 	background-color: #[btn2_color];
-	color: #[644a3b];
+	color: #[btn2_text_color];
 }
 .btn-default:hover,
 .btn-default:focus, 
 .btn-default.focus {
     border-color: #[btn2_border];
 	background-color: #[btn2_color];
-	color: #[644a3b];
+	color: #[btn2_text_color];
     opacity: 0.8;
 }
 .btn-default.btn-inverse,
