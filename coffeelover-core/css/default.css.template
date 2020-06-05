@@ -16,7 +16,18 @@ body {
 footer {
   flex-shrink: 0;
 }
-
+.homepage-blog-posts .post-image-container img {
+    height: 230px;
+}
+.product-items.productList .product-item .img a {
+    position: initial;
+}
+@media (max-width: 991px){
+.product-items.productList .product-item .img {
+    padding-right: 0;
+    width: 32%;
+}
+}
 body {
 	font-family: 'Montserrat', sans-serif;
     color: #[body_text_color];
