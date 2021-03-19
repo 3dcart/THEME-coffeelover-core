@@ -11,6 +11,21 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 .page-content {
   flex: 1 0 auto;
 }
@@ -139,7 +154,7 @@ h1 {
 .btn-default {
 	border-color: #644a3b;
 	background-color: #bca483;
-	color: #644a3b;
+	color: #141414;
 }
 .btn-default:hover,
 .btn-default:focus, 
@@ -422,7 +437,7 @@ span.cart-count {
 .site-footer {
     background-color: #bca483;
     padding: 55px 0 0;
-    color: #fff;
+    color: #141414;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -431,7 +446,7 @@ ul.extrapages li {
     margin: 0 0 15px;
 }
 ul.extrapages li a {
-    color: #fff;
+    color: #141414;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -447,7 +462,7 @@ ul.extrapages li a {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: left;
-    color: #fff;
+    color: #141414;
     font-size: 13px;
     font-weight: 400;
     line-height:1.5em;
@@ -456,7 +471,7 @@ ul.extrapages li a {
     padding:10px 0;
 }
 	.copyright_txt a {
-		color: #fff;
+		color: #141414;
 		text-decoration: underline;
 	}
 @media(max-width: 767px) {
@@ -521,7 +536,7 @@ ul.extrapages li a {
     line-height: 13px;
     font-weight: 300;
     margin-left: 3px;
-    color: #fff;
+    color: #141414;
     cursor: pointer;
 }
 
@@ -638,7 +653,7 @@ span.freeshipping {
     top:2px;
     right: 17px;
     background: #bca483;
-    color: #644a3b;
+    color: #141414;
 }
 .product-item .action .btn {
     min-width: 150px;
@@ -660,7 +675,7 @@ span.freeshipping {
     background-color: #fff;
     padding: 30px 0;
 }
-.products-section h2 {
+.products-section h2,.products-section h1 {
     text-align: center;
     font-size: 30px;
     line-height: 1;
@@ -670,7 +685,7 @@ span.freeshipping {
     margin: 0 0 25px;
     position: relative;
 }
-.products-section h2:after {
+.products-section h2:after,.products-section h1:after {
 }
 .home-page-content .category-footer {
     padding: 40px 0 60px;
