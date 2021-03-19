@@ -1,6 +1,7 @@
 /*
 ** Bootstrap over-rides
 */
+
 html, body {
   /*height: 100%;*/
 }
@@ -44,11 +45,11 @@ footer {
 }
 }
 body {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #[body_text_color];
-	line-height: 1.5;
+    line-height: 1.5;
     padding-top:0;
-	font-size: [base_font_size]px;
+    font-size: [base_font_size]px;
 }
 
 img {
@@ -63,7 +64,7 @@ img {
     color: #644a3b;
 }
 h1 {
-	font-size: [heading_base_size]px;
+    font-size: [heading_base_size]px;
 }
 .header-specials {
     color: #[headings_color];
@@ -149,16 +150,16 @@ h1 {
     text-transform: uppercase;
 }
 .btn-default {
-	border-color: #[btn2_border];
-	background-color: #[btn2_color];
-	color: #[btn2_text_color];
+    border-color: #[btn2_border];
+    background-color: #[btn2_color];
+    color: #[btn2_text_color];
 }
 .btn-default:hover,
 .btn-default:focus, 
 .btn-default.focus {
     border-color: #[btn2_border];
-	background-color: #[btn2_color];
-	color: #[btn2_text_color];
+    background-color: #[btn2_color];
+    color: #[btn2_text_color];
     opacity: 0.8;
 }
 .btn-default.btn-inverse,
@@ -169,7 +170,7 @@ h1 {
 }
 .btn-default.btn-inverse:hover,
 .btn-primary:hover {
-	color: #[btn_text_color];
+    color: #[btn_text_color];
     background-color: #[btn_color];
     border-color: #[btn_border];
     opacity: 0.8;
@@ -197,8 +198,8 @@ h1 {
 }
 .navbar-inverse .navbar-nav > li > a {
     color: #[nav_text_color];
-	font-weight: 400;
-	letter-spacing: 0.025em;
+    font-weight: 400;
+    letter-spacing: 0.025em;
     text-transform: uppercase;
     font-size: 16px;
     line-height: 18px;
@@ -338,7 +339,7 @@ h1 {
 }
 .site-header ul li a:hover {
     text-decoration:none;
-	opacity: 0.7;
+    opacity: 0.7;
 }
 
 @media (max-width: 991px) {
@@ -422,14 +423,14 @@ span.cart-title {
     font-size: 12px;
     line-height: 15px;
     display: block;
-	font-weight: bold;
+    font-weight: bold;
 }
 span.cart-count {
     color: #676767;
     font-size: 10px;
     display: block;
     line-height: 15px;
-	font-weight: 400;
+    font-weight: 400;
 }
 .site-footer {
     background-color: #[footer_color];
@@ -467,10 +468,10 @@ ul.extrapages li a {
 .copyright_txt {
     padding:10px 0;
 }
-	.copyright_txt a {
-		color: #[footer_text_color];
-		text-decoration: underline;
-	}
+    .copyright_txt a {
+        color: #[footer_text_color];
+        text-decoration: underline;
+    }
 @media(max-width: 767px) {
     .copyright * {
         text-align: center !important;
@@ -488,7 +489,7 @@ ul.extrapages li a {
 .mailist-box h3 {
     margin: 0 0 15px;
     /*font-family: 'Montserrat', sans-serif;*/
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
@@ -554,7 +555,7 @@ ul.social-icons li.social-icons-label {
     font-size: 18px;
     vertical-align: middle;
     /*font-family: 'Montserrat', sans-serif;*/
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     margin-right: 20px;
 }
@@ -592,7 +593,7 @@ ul.social-icons li.social-icons-label {
     color: #[stars_color];
 }
 .product-items {
-	overflow: hidden;
+    overflow: hidden;
 }
 .product-items .product-item {
     text-align: center;
@@ -607,7 +608,7 @@ ul.social-icons li.social-icons-label {
     color: #[sale_text];
 }
 .product-item .on-sale-badge {
-	background-color: #[sale_text];
+    background-color: #[sale_text];
 }
 del.original-price {
     font-weight: 400;
@@ -980,13 +981,13 @@ span.freeshipping {
 /*
 Common page styles */
 .widget-header {
-	color: #[headings_color];
+    color: #[headings_color];
 }
 .widget-header:after {
-	border-bottom: 1px solid #[headings_color];
+    border-bottom: 1px solid #[headings_color];
 }
 .page_header {
-	margin: 0 0 30px;
+    margin: 0 0 30px;
 }
 .page_heading {
     margin: 0 0 0;
@@ -1031,7 +1032,7 @@ Common page styles */
     font-size: 36px;
 }
 .scrollToTop:hover{
-	text-decoration:none;
+    text-decoration:none;
     color: #644a3b;
     background-color: rgba(255, 255, 255, .8);
     -webkit-transition: opacity 1000ms ease-in-out;
@@ -1049,9 +1050,9 @@ iframe {
 }
 
 @media(max-width: 767px) {
-	ul.payment-icons li {
-		font-size: 30px;
-	}
+    ul.payment-icons li {
+        font-size: 30px;
+    }
 }
 @media(min-width: 768px) {
     .revealOnScroll {
