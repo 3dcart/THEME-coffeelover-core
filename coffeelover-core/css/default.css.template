@@ -1,7 +1,7 @@
 /*
 ** Bootstrap over-rides
 */
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 html, body {
   /*height: 100%;*/
 }
@@ -37,6 +37,9 @@ footer {
 }
 .product-items.productList .product-item .img a {
     position: initial;
+}
+.antiCls { 
+    visibility: hidden; 
 }
 @media (max-width: 991px){
 .product-items.productList .product-item .img {

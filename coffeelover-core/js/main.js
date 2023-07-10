@@ -99,7 +99,7 @@ function moveMenu() {
         jQuery('#menulinks').appendTo('#menulinks-outer');
     }
 
-    if (respWidth < 767) {
+    if (respWidth < 768) {
         jQuery('#categories').appendTo('#mobile-categories');
     }
     else {
@@ -130,7 +130,7 @@ jQuery(document).ready(function () {
 
 
     var respWidth = window.innerWidth;
-    if (respWidth >= 767) {
+    if (respWidth >= 768) {
     	jQuery('.navbar .dropdown').hover(function () {
     		jQuery(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown('fast');
 
@@ -200,3 +200,45 @@ $(document).ready(function () {
 	});
 
 });
+
+jQuery(function () {
+
+    var $window = jQuery(window),
+        win_height_padded = $window.height() * 1.1;
+        $window.on('scroll', revealOnScroll);
+
+    function revealOnScroll() {
+        var scrolled = $window.scrollTop(),
+            win_height_padded = $window.height() * 1.1;
+
+        // Showed...
+        $(".revealOnScroll:not(.animated)").each(function () {
+            var $this = $(this),
+                offsetTop = $this.offset().top;
+
+            if (scrolled + win_height_padded > offsetTop) {
+                if ($this.data('timeout')) {
+                    window.setTimeout(function () {
+                        $this.addClass('animated animated1 ' + $this.data('animation'));
+                    }, parseInt($this.data('timeout'), 10));
+                } else {
+                    $this.addClass('animated ' + $this.data('animation'));
+                }
+            }
+        });
+        // Hidden...
+        $(".revealOnScroll.animated").each(function (index) {
+            var $this = $(this),
+                offsetTop = $this.offset().top;
+            if (scrolled + win_height_padded < offsetTop) {
+                $(this).removeClass('animated fadeInUp flipInX lightSpeedIn')
+            }
+        });
+    }
+
+    revealOnScroll();
+});
+
+setTimeout(function(){
+      $('.antiCls').css("visibility", "visible");
+  }, 800);
