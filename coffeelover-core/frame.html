@@ -97,11 +97,9 @@
                                 <!--START: login-->
                                 <li><a href="/myaccount.asp">My Account<span role="presentation" class="icon-login"></span></a></li>
                                 <!--END: login-->
-                                <li><a href="#" data-toggle="modal" data-target="#searchModal" role="button">Search<span role="presentation" class="icon-search"></span></a></li>
+                                <li><!--START: FRAME_SEARCH--><a href="#" data-toggle="modal" data-target="#searchModal">Search<span class="icon-search"></span></a><style>#mobSearch{display:block !important}</style><!--END: FRAME_SEARCH--></li>
                                 <li><a href="/view_cart.asp">Cart<span role="presentation" class="icon-basket"></span></a></li>
                                 <li><a href="#" id="mobile-menu-trigger2" class="visible-sm"><span role="presentation" class="icon-menu"></span></a></li>
-                                <!--START: FRAME_SEARCH-->
-                                <!--END: FRAME_SEARCH-->
                             </ul>
                         </div>
                     </div>
@@ -110,7 +108,7 @@
                         <a class="hidden" href="/view_cart.asp">
                             <span role="presentation" class="icon-basket"></span>
                         </a>
-                        <a href="#" data-toggle="modal" data-target="#searchModal"><span class="sr-only" role="presentation">Search</span><span role="presentation" class="icon-search"></span></a>
+                        <a href="#" data-toggle="modal" data-target="#searchModal" id="mobSearch"><span class="sr-only" role="presentation">Search</span><span role="presentation" class="icon-search"></span></a>
                     </div>
 
                     <!--START: shopping_cart-->
